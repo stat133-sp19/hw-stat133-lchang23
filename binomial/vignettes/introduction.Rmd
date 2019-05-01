@@ -1,0 +1,87 @@
+---
+title: "How to Use Binomial"
+author: "Lawrence Chang"
+date: "April 30, 2019"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+
+## Binomial
+
+The "Binomial" package implements functions for computing binomial probabilities, evaluating the binomial distribution and other measures of probability (e.g. expectation, variance). It also displays graphs of the binomial distribution and the cumulative binomial distribution.
+
+## Evaluating the number of combinations "n trials choose k successes"
+
+You can compute the number of combinations "n trials choose k successes" by invoking the function `bin_choose()`.
+
+```{r}
+# 5 trials, 2 successes
+bin_choose(5, 2)
+```
+## Evalutating binomial probability
+
+You can compute the binomial probability of k successes in n trials with probability p by invoking the function `bin_probability()`.
+
+```{r}
+# 5 trials, 2 successes, p = 0.5
+bin_probability(2,5,0.5)
+```
+
+## Evaluating binomial distribution
+
+You can get the binomial distribution in table form by invoking the function `bin_distribution()`.
+
+```{r}
+# 5 trials, p = 0.5
+dis1 <- bin_distribution(5,0.5)
+dis1
+```
+
+The function `plot.bindis()` displays the histogram of the binomial distribution.
+
+```{r}
+plot.bindis(dis1)
+```
+
+## Evaluationg the binomial cumulative distribution
+
+You can use the function `bin_cumulative()` to obtain the cumulative probabilities associated with the binomial distribution.
+
+```{r}
+dis2 <- bin_cumulative(5,0.5)
+dis2
+```
+
+The function `plot.bincum()` the graph of the cumulative distribution.
+
+```{r}
+plot(dis2)
+```
+
+## Displaying information of a binomial random variable
+
+Display content of binomial random variable using `bin_variable()`.
+
+```{r}
+# 10 trials, p = 0.3
+bin1 <- bin_variable(10,0.3)
+bin1
+```
+
+
+To get a summary of probabilities values of a binomial random variable such as the variance, use the function `summary.binvar()` 
+
+```{r}
+binsum1 <- summary(bin1)
+binsum1
+```
+
+

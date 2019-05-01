@@ -1,0 +1,2 @@
+"0","# Binomial random variable: 10 trials, p = 0.3"
+"0","bin1 <- bin_variable(10,0.3)"

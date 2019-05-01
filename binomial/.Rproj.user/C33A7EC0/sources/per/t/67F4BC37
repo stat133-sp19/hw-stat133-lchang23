@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556675303705.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1009962487",
+    "id" : "67F4BC37",
+    "lastKnownWriteTime" : 1556694055,
+    "last_content_update" : 1556694055897,
+    "path" : "C:/Users/induk/Desktop/CAL Spring 19/stat 133/R/workout/workout03/Binomial/R/binomial.R",
+    "project_path" : "R/binomial.R",
+    "properties" : {
+        "cursorPosition" : "160,1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556671047927.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "647005338",
+    "id" : "B0E6B0D4",
+    "lastKnownWriteTime" : 1556681401,
+    "last_content_update" : 1556681401125,
+    "path" : "C:/Users/induk/Desktop/CAL Spring 19/stat 133/R/workout/workout03/Binomial/tests/testthat/test-checkers.R",
+    "project_path" : "tests/testthat/test-checkers.R",
+    "properties" : {
+        "cursorPosition" : "26,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

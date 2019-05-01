@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556671097103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3480601382",
+    "id" : "8959735",
+    "lastKnownWriteTime" : 1556683149,
+    "last_content_update" : 1556683149571,
+    "path" : "C:/Users/induk/Desktop/CAL Spring 19/stat 133/R/workout/workout03/Binomial/tests/testthat/test-summarymeasures.R",
+    "project_path" : "tests/testthat/test-summarymeasures.R",
+    "properties" : {
+        "cursorPosition" : "45,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
